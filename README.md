@@ -2,12 +2,13 @@
 
 ## What is it?
 
-This exercise is a follow-on to the General Assignment, you'll need to complete that first.  In this assignment you'll write a program that makes a request to the endpoints you created in the General Assignment.  This is a systems assignment so we want to see that you're able to use sockets directly rather than using a library that handles the HTTP request.
+This exercise is a follow-on to the [General Assignment](https://github.com/cloudflare-hiring/cloudflare-2020-general-engineering-assignment), you'll need to complete that first.  In this assignment you'll write a program that makes a request to the endpoints you created in the General Assignment.  This is a systems assignment so we want to see that you're able to use sockets directly rather than using a library that handles the HTTP request.
 
 ## Useful Links
 
 - [A Tour of Go](https://tour.golang.org/welcome/1)
 - [The Rust Programming Language](https://doc.rust-lang.org/book/index.html)
+- [Cloudflare General Assignment](https://github.com/cloudflare-hiring/cloudflare-2020-general-engineering-assignment)
 
 ## Requirements
 
@@ -26,7 +27,7 @@ We want to see how familiar you are with systems work.  Although we would normal
 
 ### 4. Create a CLI tool that makes a request to your links page
 
-Your CLI tool should take an argument that is a full URL (--url).  The tool will make an HTTP request to the URL and print the result directly to the console.  Test the CLI tool by specifying the /links URL in your General Assignment and make sure it prints the entire json document with all your links.
+Your CLI tool should take an argument that is a full URL (--url).  The tool will make an HTTP request to the URL and print the response directly to the console.  Test the CLI tool by specifying the /links URL in your General Assignment and make sure it prints the entire json document with all your links.
 
 Your CLI tool should also allow a --help parameter that describes how to use it.
 
