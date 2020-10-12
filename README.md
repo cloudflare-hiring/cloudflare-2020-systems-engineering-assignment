@@ -15,7 +15,7 @@ This exercise is a follow-on to the [General Assignment](https://github.com/clou
 ### 1. Use one of the specified languages
 
 Choose from among C/C++/Go/Rust. If you aren't familiar with these languages, you're not alone! Many engineers join Cloudflare without
-specific langauge experience. See the Useful Links section for some quickstart guides.
+specific language experience. See the Useful Links section for some quickstart guides.
 
 ### 2. Use an off the shelf build tool
 
